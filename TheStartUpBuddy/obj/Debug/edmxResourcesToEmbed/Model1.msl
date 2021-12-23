@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB_BuddyModelStoreContainer" CdmEntityContainer="DB_BuddyEntities">
+    <EntitySetMapping Name="MST_USERS">
+      <EntityTypeMapping TypeName="DB_BuddyModel.MST_USERS">
+        <MappingFragment StoreEntitySet="MST_USERS">
+          <ScalarProperty Name="Position" ColumnName="Position" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Profile_Photo" ColumnName="Profile_Photo" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Admin_ID" ColumnName="Admin_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MST_POSITION">
+      <EntityTypeMapping TypeName="DB_BuddyModel.MST_POSITION">
+        <MappingFragment StoreEntitySet="MST_POSITION">
+          <ScalarProperty Name="Position" ColumnName="Position" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
